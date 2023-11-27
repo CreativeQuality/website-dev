@@ -79,6 +79,7 @@ div.content {
 }
 
 div.content.about {
+  font-size: x-large;
   text-align: left;
 }
 
