@@ -36,12 +36,13 @@ h1 {
 }
 
 footer {
+  color: grey;
   font-style: italic;
   position: fixed;
   bottom: 1%;
   width: 100%;
 }
 
-a {
-  color: white;
+footer a {
+  color: grey;
 }
