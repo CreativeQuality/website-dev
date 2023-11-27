@@ -34,3 +34,13 @@ h1 {
   font-size: 7em;
   text-decoration: underline;
 }
+
+footer {
+  position: fixed;
+  bottom: 1%;
+  width: 100%;
+}
+
+a:visited {
+  color: white;
+}
