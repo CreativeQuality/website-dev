@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: "Exo";
-  src: url("../fonts/Exo-VariableFont_wght.woff2") format("woff2-variations");
   font-style: normal;
+  src: url("../fonts/Exo-VariableFont_wght.woff2") format("woff2-variations");
 }
 
 @font-face {
   font-family: "Exo";
-  src: url("../fonts/Exo-Italic-VariableFont_wght.woff2") format("woff2-variations");
   font-style: italic;
+  src: url("../fonts/Exo-Italic-VariableFont_wght.woff2") format("woff2-variations");
 }
 
 html {
