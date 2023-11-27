@@ -56,7 +56,7 @@ span.button-cell:hover {
 }
 
 span.button-cell.toggled {
-  text-decoration: overline;
+  color: darkred;
 }
 
 main {
