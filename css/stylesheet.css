@@ -55,7 +55,7 @@ span.button-cell:hover {
   color: red;
 }
 
-span.button-cell.about {
+span.button-cell.toggled {
   text-decoration: overline;
 }
 
@@ -74,12 +74,15 @@ main {
   z-index: -1;
 }
 
+div.content {
+  display: none;
+}
+
 div.content.about {
   text-align: left;
 }
 
 div.content.contact {
-  display: none;
   font-size: xx-large;
 }
 
