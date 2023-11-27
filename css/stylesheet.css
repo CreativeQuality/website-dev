@@ -1,7 +1,23 @@
+@font-face {
+  font-family: "Stardate";
+  src: url("../fonts/Stardate81316-aolE.ttf");
+}
+
 html {
   background: url("../images/ann0912a.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: "Stardate", fantasy;
+  font-size: 7em;
+  text-decoration: underline;
 }
