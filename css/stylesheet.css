@@ -36,6 +36,7 @@ h1 {
 }
 
 footer {
+  font-style: italic;
   position: fixed;
   bottom: 1%;
   width: 100%;
