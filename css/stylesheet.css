@@ -49,7 +49,7 @@ span.button-cell {
 }
 
 span.button-cell.toggled {
-  color: darkred;
+  color: red;
 }
 
 span.button-cell:hover {
