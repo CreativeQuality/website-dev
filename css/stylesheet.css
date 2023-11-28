@@ -41,9 +41,6 @@ div.button-row {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 span.button-cell {
@@ -62,16 +59,10 @@ span.button-cell.toggled {
 main {
   font-size: large;
   font-weight: 600;
-  height: 80vh;
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 div.content {
