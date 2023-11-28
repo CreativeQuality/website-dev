@@ -11,19 +11,19 @@
   <div id="page-container">
     <h1>CreativeQuality.dev</h1>
     <div id="button-row">
-      <span class="about button-cell" onclick="toggle('about')">about</span>
-      <span class="services button-cell" onclick="toggle('services')">services</span>
-      <span class="contact button-cell " onclick="toggle('contact')">contact</span>
+      <span id="button-about" class="button" onclick="toggle('about')">about</span>
+      <span id="button-services" class="button" onclick="toggle('services')">services</span>
+      <span id="button-contact" class="button" onclick="toggle('contact')">contact</span>
     </div>
     <main>
-      <div class="about content">
+      <div id="content-about" class="content">
         <p>Hello World!</p>
       </div>
-      <div class="contact content">
+      <div id="content-contact" class="content">
         <p><my-email data-user="info" data-domain="creativequality.dev"></my-email></p>
         <p>KvK 92082580</p>
       </div>
-      <div class="services content">
+      <div id="content-services" class="content">
         <p>Services</p>
       </div>
     </main>

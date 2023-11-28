@@ -1,15 +1,15 @@
 "use strict";
 
 function toggle(name) {
-	for (const buttonCell of document.querySelectorAll("span.button-cell")) {
-		if (buttonCell.classList.contains(name))
-			buttonCell.classList.add("toggled");
+	for (const button of document.querySelectorAll("span.button")) {
+		if (button.id == "button-" + name)
+			button.classList.add("toggled");
 		else
-			buttonCell.classList.remove("toggled");
+			button.classList.remove("toggled");
 	}
 
 	for (const contentDiv of document.querySelectorAll("div.content")) {
-		contentDiv.style.display = contentDiv.classList.contains(name) ? "block" : "none";
+		contentDiv.style.display = contentDiv.id == "content-" + name ? "block" : "none";
 	}
 }
 

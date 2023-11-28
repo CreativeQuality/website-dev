@@ -61,16 +61,16 @@ h1 {
   align-items: center;
 }
 
-span.button-cell {
+span.button {
   margin-left: 1em;
   margin-right: 1em;
 }
 
-span.button-cell.toggled {
+span.button.toggled {
   color: red;
 }
 
-span.button-cell:hover {
+span.button:hover {
   text-decoration: overline;
 }
 
@@ -92,11 +92,11 @@ div.content {
   display: none;
 }
 
-div.content.about, div.content.services {
+#content-about, #content-services {
   text-align: left;
 }
 
-div.content.contact {
+#content-contact {
   font-size: 150%;
   padding-top: 2em;
 }
