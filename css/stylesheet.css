@@ -57,19 +57,11 @@ span.button-cell.toggled {
 }
 
 main {
-  font-size: large;
-  font-weight: 600;
+  font-size: small;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
-}
-
-@media only screen and (min-width: 1400px) {
-  main {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
 }
 
 div.content {
@@ -77,12 +69,12 @@ div.content {
 }
 
 div.content.about {
-  font-size: x-large;
   text-align: left;
 }
 
 div.content.contact {
   font-size: xx-large;
+  margin-top: 15%;
 }
 
 my-email::after {
@@ -103,4 +95,16 @@ footer {
 
 footer a {
   color: grey;
+}
+
+@media only screen and (min-width: 1400px) {
+  main {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  div.content.about {
+    font-size: x-large;
+    font-weight: 600;
+  }
 }
