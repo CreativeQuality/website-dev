@@ -65,6 +65,13 @@ main {
   margin-right: 10%;
 }
 
+@media only screen and (min-width: 1400px) {
+  main {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
 div.content {
   display: none;
 }
