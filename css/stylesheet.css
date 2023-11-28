@@ -30,6 +30,11 @@ html {
   background-size: cover;
 }
 
+#page-container {
+  position: relative;
+  min-height: 90vh;
+}
+
 body {
   font-family: "Exo2", Verdana, sans-serif;
   text-align: center;
@@ -48,7 +53,7 @@ h1 {
   text-decoration: underline;
 }
 
-div.button-row {
+#button-row {
   font-family: "Stardate", fantasy;
   font-size: 300%;
   display: flex;
@@ -71,10 +76,10 @@ span.button-cell:hover {
 
 main {
   font-size: 150%;
-  margin-top: 5%;
-  margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 main div {
@@ -93,7 +98,7 @@ div.content.about, div.content.services {
 
 div.content.contact {
   font-size: 150%;
-  margin-top: 15%;
+  padding-top: 2em;
 }
 
 my-email::after {
@@ -106,8 +111,9 @@ my-email::before {
 
 footer {
   color: grey;
-  position: fixed;
-  bottom: 1%;
+  position: absolute;
+  bottom: 0;
+  height: 2.5em;
   width: 100%;
 }
 

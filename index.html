@@ -8,24 +8,26 @@
    <script src="js/logic.js"></script>
  </head>
  <body>
-  <h1>CreativeQuality.dev</h1>
-  <div class="button-row">
-    <span class="about button-cell" onclick="toggle('about')">about</span>
-    <span class="services button-cell" onclick="toggle('services')">services</span>
-    <span class="contact button-cell " onclick="toggle('contact')">contact</span>
+  <div id="page-container">
+    <h1>CreativeQuality.dev</h1>
+    <div id="button-row">
+      <span class="about button-cell" onclick="toggle('about')">about</span>
+      <span class="services button-cell" onclick="toggle('services')">services</span>
+      <span class="contact button-cell " onclick="toggle('contact')">contact</span>
+    </div>
+    <main>
+      <div class="about content">
+        <p>Hello World!</p>
+      </div>
+      <div class="contact content">
+        <p><my-email data-user="info" data-domain="creativequality.dev"></my-email></p>
+        <p>KvK 92082580</p>
+      </div>
+      <div class="services content">
+        <p>Services</p>
+      </div>
+    </main>
+    <footer>Background image credit: <a href="https://esahubble.org/images/ann0912a/">NASA & ESA</a></footer>
   </div>
-  <main>
-    <div class="about content">
-      <p>Hello World!</p>
-    </div>
-    <div class="contact content">
-      <p><my-email data-user="info" data-domain="creativequality.dev"></my-email></p>
-      <p>KvK 92082580</p>
-    </div>
-    <div class="services content">
-      <p>Services</p>
-    </div>
-  </main>
-  <footer>Background image credit: <a href="https://esahubble.org/images/ann0912a/">NASA & ESA</a></footer>
  </body>
 </html>
