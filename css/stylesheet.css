@@ -48,12 +48,12 @@ span.button-cell {
   margin-right: 1em;
 }
 
-span.button-cell:hover {
-  color: red;
-}
-
 span.button-cell.toggled {
   color: darkred;
+}
+
+span.button-cell:hover {
+  text-decoration: overline;
 }
 
 main {
