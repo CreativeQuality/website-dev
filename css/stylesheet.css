@@ -9,11 +9,13 @@
   src: url("../fonts/Exo-VariableFont_wght.woff2") format("woff2-variations");
 }
 
+/*
 @font-face {
   font-family: "Exo";
   font-style: italic;
   src: url("../fonts/Exo-Italic-VariableFont_wght.woff2") format("woff2-variations");
 }
+*/
 
 html {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ann0912a.jpg") no-repeat center center fixed;
@@ -87,7 +89,6 @@ my-email::before {
 
 footer {
   color: grey;
-  font-style: italic;
   position: fixed;
   bottom: 1%;
   width: 100%;
