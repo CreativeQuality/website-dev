@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Exo";
   font-style: normal;
-  src: url("../fonts/Exo-VariableFont_wght.woff2") format("woff2-variations");
+  src: url("../fonts/Exo2-VariableFont_wght.woff2") format("woff2-variations");
 }
 
 /*
@@ -59,7 +59,6 @@ span.button-cell:hover {
 }
 
 main {
-  font-size: small;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 10%;
