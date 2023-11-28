@@ -78,7 +78,7 @@ div.content {
   display: none;
 }
 
-div.content.about {
+div.content.about, div.content.services {
   text-align: left;
 }
 
@@ -112,7 +112,7 @@ footer a {
     margin-right: 20%;
   }
 
-  div.content.about {
+  div.content.about, div.content.services {
     font-size: x-large;
     font-weight: 600;
   }
