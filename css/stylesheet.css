@@ -4,16 +4,16 @@
 }
 
 @font-face {
-  font-family: "Exo";
+  font-family: "Exo2";
   font-style: normal;
   src: url("../fonts/Exo2-VariableFont_wght.woff2") format("woff2-variations");
 }
 
 /*
 @font-face {
-  font-family: "Exo";
+  font-family: "Exo2";
   font-style: italic;
-  src: url("../fonts/Exo-Italic-VariableFont_wght.woff2") format("woff2-variations");
+  src: url("../fonts/Exo2-Italic-VariableFont_wght.woff2") format("woff2-variations");
 }
 */
 
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: "Exo", Verdana, sans-serif;
+  font-family: "Exo2", Verdana, sans-serif;
   text-align: center;
   color: white;
 }
