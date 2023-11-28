@@ -36,15 +36,21 @@ body {
   color: white;
 }
 
+@media only screen and (min-width: 1400px) {
+  body {
+    font-size: large;
+  }
+}
+
 h1 {
   font-family: "Stardate", fantasy;
-  font-size: 7em;
+  font-size: 500%;
   text-decoration: underline;
 }
 
 div.button-row {
   font-family: "Stardate", fantasy;
-  font-size: 4em;
+  font-size: 300%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +91,7 @@ div.content.about, div.content.services {
 }
 
 div.content.contact {
-  font-size: xx-large;
+  font-size: 150%;
   margin-top: 15%;
 }
 
@@ -112,10 +118,5 @@ footer a {
   main {
     margin-left: 20%;
     margin-right: 20%;
-  }
-
-  div.content.about, div.content.services {
-    font-size: x-large;
-    font-weight: 600;
   }
 }
