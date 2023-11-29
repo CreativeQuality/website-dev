@@ -9,4 +9,10 @@ function toggle(name) {
 		contentDiv.style.display = contentDiv.id == "content-" + name ? "block" : "none";
 }
 
+function contactMe() {
+	let myEmail = document.querySelector("#my-email");
+	let mailtoLink = "mailto:" + myEmail.dataset.user + "@" + myEmail.dataset.domain;
+	window.location.href = mailtoLink;
+}
+
 window.onload = () => toggle("about");
