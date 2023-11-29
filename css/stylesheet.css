@@ -100,6 +100,10 @@ div.content {
   font-size: 150%;
 }
 
+#content-services ul li {
+  padding-top: 0.5em;
+}
+
 .link {
   text-decoration: underline;
 }
@@ -139,9 +143,5 @@ footer a {
 @media only screen and (min-height: 1000px) {
   #content-contact {
     padding-top: 3em;
-  }
-
-  #content-services ul li {
-    padding-top: 1em;
   }
 }
