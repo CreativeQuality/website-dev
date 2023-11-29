@@ -15,21 +15,39 @@
     <h1>CreativeQuality.dev</h1>
     <div id="button-row">
       <span id="button-about" class="button" onclick="toggle('about')">about</span>
-      <span id="button-services" class="button" onclick="toggle('services')">services</span>
+      <span id="button-services" class="button" onclick="toggle('services')">skills & services</span>
       <span id="button-contact" class="button" onclick="toggle('contact')">contact</span>
     </div>
     <main>
       <div id="content-about" class="content">
         <h2>Who?</h2>
-        <h2>Where?</h2>
+        <p>
+          I'm a freelance software engineer with 10+ years of professional experience in the medical domain, having worked at one of the world's leading
+          healthcare IT companies. In my work I put emphasis on solid fundamentals, whilst also keeping the big picture in mind and taking a pragmatic
+          approach where needed.
+        </p>
         <h2>What?</h2>
+        <p>Please see <span class="link" onclick="toggle('services')">my skills and services</span>.</p>
+        <h2>Where?</h2>
+        <p>Operating in the Netherlands (Utrecht region) and online (remote work).</p>
+      </div>
+      <div id="content-services" class="content">
+        <p>Below is a list of the skills and services that I can provide. Note that this list is non-exhaustive, so please do not hesitate to <span class="link" onclick="toggle('contact')">contact me</span> for further inquiries.</p>
+        <ul>
+          <li>Backend development in JVM languages like Java and Kotlin.</li>
+          <li>Knowledge of Spring Boot framework.</li>
+          <li>Web application security, including extensive experience with OAuth 2.0+ / OpenID Connect.</li>
+          <li>Containerization and cloud deployment (Docker, Kubernetes).</li>
+          <li>Experience with healthcare IT standards such as FHIR, HL7 and XDS.</li>
+          <li>Comfortable working as part of an Agile development squad.</li>
+          <li>Native-level proficiency in Dutch and English.</li>
+          <li>Academic mindset and credentials, having a doctorate (PhD) in A.I.</li>
+          <li>Certifications: CKAD, Spring Professional 2023, TOGAF EA Practitioner.</li>
+        </ul>
       </div>
       <div id="content-contact" class="content">
         <p><span id="my-email" class="link" data-user="info" data-domain="creativequality.dev" onclick="contactMe()"></span></p>
         <p>KvK 92082580</p>
-      </div>
-      <div id="content-services" class="content">
-        <p>Services</p>
       </div>
     </main>
     <footer>Background image credit: <a href="https://esahubble.org/images/ann0912a/">NASA & ESA</a></footer>
