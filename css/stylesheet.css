@@ -61,16 +61,18 @@ h1 {
   align-items: center;
 }
 
-span.button {
+a.button {
+  color: white;
   margin-left: 1em;
   margin-right: 1em;
+  text-decoration: none;
 }
 
-span.button.toggled {
+a.button.toggled {
   color: red;
 }
 
-span.button:hover {
+a.button:hover {
   text-decoration: overline;
 }
 

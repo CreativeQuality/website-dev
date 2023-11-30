@@ -1,7 +1,7 @@
 "use strict";
 
 function toggle(name) {
-	for (const button of document.querySelectorAll("span.button"))
+	for (const button of document.querySelectorAll("a.button"))
 		if (button.id == "button-" + name) button.classList.add("toggled");
 		else button.classList.remove("toggled");
 
