@@ -90,15 +90,17 @@ main div {
   animation-timing-function: ease-in-out;
 }
 
-div.content {
-  display: none;
+#content-about {
+  text-align: left;
 }
 
-#content-about, #content-services {
+#content-services {
+  display: none;
   text-align: left;
 }
 
 #content-contact {
+  display: none;
   font-size: 150%;
 }
 
